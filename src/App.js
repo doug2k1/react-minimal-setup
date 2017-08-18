@@ -1,7 +1,7 @@
 import React from 'react'
 
 class App extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
 
     this.state = {
@@ -9,7 +9,7 @@ class App extends React.Component {
     }
   }
 
-  render() {
+  render () {
     return (
       <div>
         <h1>App component</h1>
